@@ -1,0 +1,5 @@
+library(data.table)
+library(coloc) 
+gwas=fread('trait1_trait2_locus1_file')
+result <- coloc.abf(dataset1=list(snp=gwas$SNP,pvalues=gwas$P1, type="cc", s=q, N=mean(gwas$N1)), dataset2=list(snp=gwas$SNP,pvalues=gwas$P2, type="quant", N=mean(gwas$N2)), MAF=gwas$MAF)
+result <- coloc.abf(dataset1=list(snp=gwas$SNP,pvalues=gwas$P1, type="quant", s=q, N=mean(gwas$N1)), dataset2=list(snp=gwas$SNP,pvalues=gwas$P2, type="quant", N=mean(gwas$N2)), MAF=gwas$MAF)

@@ -1,0 +1,5 @@
+geno:  ABCD.geno
+snp:   ABCD_202209.snp
+ind:   ABCD_202209.ind
+snpwt: ./snpwt.NA
+predpcoutput: ./ABCD_NA.predpc
