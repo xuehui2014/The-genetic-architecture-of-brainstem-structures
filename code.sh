@@ -237,7 +237,7 @@ python SMulTiXcan.py \
 ######### III. H-MAGMA #########
 
 annotation_file=iPSC_derived_neuro
-magma     --bfile g1000_eur     --pval ../h2/input_eur_"$i" use='SNP,P' N=65621    --gene-annot ${annotation_file}.genes.annot  --out ${gwas}_${annotation_file}
+magma     --bfile g1000_eur     --pval ../h2/input_eur_${gwas} use='SNP,P' N=65621    --gene-annot ${annotation_file}.genes.annot  --out ${gwas}_${annotation_file}
 
 ######### f. Shared genetic architectures with other non-imaging phenotypes #########
 
