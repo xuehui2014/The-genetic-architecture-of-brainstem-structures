@@ -3,7 +3,7 @@ Code for research paper: The genetic architecture of brainstem structures
 
 # Imaging preprocess
 Please see 1_imaging_prep.sh
-Software
+# Software
   1. Brainstem substructure segmentation: FreeSurfer v7.0.0 (https://surfer.nmr.mgh.harvard.edu/)
   2. Harmonzationt: Combat Harmonization (https://github.com/Jfortin1/ComBatHarmonization)
   3. Quantile normalization: PLINK (https://www.cog-genomics.org/plink/1.9/)
