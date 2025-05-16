@@ -15,3 +15,6 @@ harmonization_run(a1,b1,c1);
 plink --bfile ${genetic_file} --keep qualified_sample --extract qualified_snplist --pheno input_${phenotype_file} --covar ${cov_file} --quantile-normalize --write-covar --out ${phenotype_file}
 
 mv ${phenotype_file}.cov ${phenotype_file}
+
+
+
