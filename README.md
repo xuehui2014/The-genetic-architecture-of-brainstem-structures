@@ -24,10 +24,11 @@ Please see 3_main.sh
 Software
   1. GWAS: GCTA-fastGWA (https://yanglab.westlake.edu.cn/software/gcta/#fastGWA)
   2. GWAS meat analyses: METAL (https://genome.sph.umich.edu/wiki/METAL_Documentation)
-  3. h2
+  3. Pooling: PLINK (https://www.cog-genomics.org/plink/1.9/)
+  4. h2
        a. EUR & EAS: LDSC (https://github.com/bulik/ldsc)
        b. EUR+EAS: cov-LDSC (https://github.com/immunogenomics/cov-ldsc)
-  4. cross-ancestry genetic correlation: Popcorn (https://github.com/brielin/Popcorn)
+  5. cross-ancestry genetic correlation: Popcorn (https://github.com/brielin/Popcorn)
  # Biological mechanisms
  Please see 4_post_gwas.sh
  Software
