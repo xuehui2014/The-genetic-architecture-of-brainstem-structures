@@ -35,7 +35,9 @@ Software
    1. Fine-mapping: PAINTOR (https://github.com/gkichaev/PAINTOR_V3.0)
    2. Annotation: FUMA (https://fuma.ctglab.nl/)
    3. Gene priotization: FLAMES (https://github.com/Marijn-Schipper/FLAMES)
-   4. Pathway enrichment analyses: g:Profiler (https://biit.cs.ut.ee/gprofiler/gost)
+        a. MAGMA (https://cncr.nl/research/magma/)
+        b. PoPs (https://github.com/FinucaneLab/pops)
+   5. Pathway enrichment analyses: g:Profiler (https://biit.cs.ut.ee/gprofiler/gost)
 # Overlap with other phenotypes
 Please see 5_pheno.sh
 Software
