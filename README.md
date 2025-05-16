@@ -3,22 +3,22 @@ Code for research paper: The genetic architecture of brainstem structures
 
 # Imaging preprocess
 Please see 1_imaging_prep.sh
-  Software
-  1. Brainstem substructure segmentation: FreeSurfer v7.0.0 (https://surfer.nmr.mgh.harvard.edu/)
-  2. Harmonzationt: Combat Harmonization (https://github.com/Jfortin1/ComBatHarmonization)
-  3. Quantile normalization: PLINK (https://www.cog-genomics.org/plink/1.9/)
+  1. Software
+    1. Brainstem substructure segmentation: FreeSurfer v7.0.0 (https://surfer.nmr.mgh.harvard.edu/)
+    2. Harmonzationt: Combat Harmonization (https://github.com/Jfortin1/ComBatHarmonization)
+    3. Quantile normalization: PLINK (https://www.cog-genomics.org/plink/1.9/)
 # Genetic preprocess
 Please see 2_genetic_prep.sh
-  Software
-  1. Ancestry: SNPWeights (https://hsph.harvard.edu/research/price-lab/software/)
-  2. Genetic PC calculatation: ABCD_GRM.r (https://github.com/robloughnan/ABCD_GeneticPCs_and_Relatedness)
-  3. Marker-level QC
-    a. PLINK (https://www.cog-genomics.org/plink/1.9/)
-    b. PLINK2 (https://www.cog-genomics.org/plink/2.0/)
-    c. QCtool (https://www.chg.ox.ac.uk/~gav/qctool_v2/)
-  5. GRM calculation
-    a. EUR & EAS: GCTA-GRM (https://yanglab.westlake.edu.cn/software/gcta/#MakingaGRM)
-    b. non-EUR: GENESIS (https://www.bioconductor.org/packages/release/bioc/html/GENESIS.html)
+  1. Software
+    1. Ancestry: SNPWeights (https://hsph.harvard.edu/research/price-lab/software/)
+    2. Genetic PC calculatation: ABCD_GRM.r (https://github.com/robloughnan/ABCD_GeneticPCs_and_Relatedness)
+    3. Marker-level QC
+      1. PLINK (https://www.cog-genomics.org/plink/1.9/)
+      2. PLINK2 (https://www.cog-genomics.org/plink/2.0/)
+      3. QCtool (https://www.chg.ox.ac.uk/~gav/qctool_v2/)
+    5. GRM calculation
+      1. EUR & EAS: GCTA-GRM (https://yanglab.westlake.edu.cn/software/gcta/#MakingaGRM)
+      2. non-EUR: GENESIS (https://www.bioconductor.org/packages/release/bioc/html/GENESIS.html)
 # The genetic architecture of brainstem structures
 Please see 3_main.sh
   Software
