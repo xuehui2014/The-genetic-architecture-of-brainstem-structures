@@ -15,7 +15,6 @@ colnames(KINGmat) = ibd.robust$sample.id
 ABCD_geno <- GdsGenotypeReader(filename = gds.fn)
 # create a GenotypeData class object
 ABCD_genoData <- GenotypeData(ABCD_geno)
-ABCD_genoData
 
 print('Generating pcair')
 mypcair <- pcair(ABCD_genoData, kinobj = KINGmat, divobj = KINGmat, 
