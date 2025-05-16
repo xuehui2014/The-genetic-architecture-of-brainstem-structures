@@ -2,13 +2,13 @@
 Code for research paper: The genetic architecture of brainstem structures
 
 # Imaging preprocess
-Please see imaging_prep.sh
+Please see 1_imaging_prep.sh
 Software
   1. Brainstem substructure segmentation: FreeSurfer v7.0.0 (https://surfer.nmr.mgh.harvard.edu/)
   2. Harmonzationt: Combat Harmonization (https://github.com/Jfortin1/ComBatHarmonization)
   3. Quantile normalization: PLINK (https://www.cog-genomics.org/plink/1.9/)
 # Genetic preprocess
-Please see genetic_prep.sh
+Please see 2_genetic_prep.sh
 Software
   1. Ancestry: SNPWeights (https://hsph.harvard.edu/research/price-lab/software/)
   2. Genetic PC calculatation: ABCD_GRM.r (https://github.com/robloughnan/ABCD_GeneticPCs_and_Relatedness)
@@ -20,7 +20,7 @@ Software
     a. EUR & EAS: GCTA-GRM (https://yanglab.westlake.edu.cn/software/gcta/#MakingaGRM)
     b. non-EUR: GENESIS (https://www.bioconductor.org/packages/release/bioc/html/GENESIS.html)
 # The genetic architecture of brainstem structures
-Please see main.sh
+Please see 3_main.sh
 Software
   1. GWAS: GCTA-fastGWA (https://yanglab.westlake.edu.cn/software/gcta/#fastGWA)
   2. GWAS meat analyses: METAL (https://genome.sph.umich.edu/wiki/METAL_Documentation)
@@ -29,14 +29,14 @@ Software
        b. EUR+EAS: cov-LDSC (https://github.com/immunogenomics/cov-ldsc)
   4. cross-ancestry genetic correlation: Popcorn (https://github.com/brielin/Popcorn)
  # Biological mechanisms
- Please see post_gwas.sh
+ Please see 4_post_gwas.sh
  Software
    1. Fine-mapping: PAINTOR (https://github.com/gkichaev/PAINTOR_V3.0)
    2. Annotation: FUMA (https://fuma.ctglab.nl/)
    3. Gene priotization: FLAMES (https://github.com/Marijn-Schipper/FLAMES)
    4. Pathway enrichment analyses: g:Profiler (https://biit.cs.ut.ee/gprofiler/gost)
 # Overlap with other phenotypes
-Please see pheno.sh
+Please see 5_pheno.sh
 Software
   1. PheWAS: FinnGen-MVP-UKBB (https://mvp-ukbb.finngen.fi/)
   2. genetic correlation: LDSC (https://github.com/bulik/ldsc)
