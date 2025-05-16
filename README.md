@@ -12,8 +12,11 @@ Please see genetic_prep.sh
 Software
   1. Ancestry: SNPWeights (https://hsph.harvard.edu/research/price-lab/software/)
   2. Genetic PC calculatation: ABCD_GRM.r (https://github.com/robloughnan/ABCD_GeneticPCs_and_Relatedness)
-  3. Marker-level QC: PLINK (https://www.cog-genomics.org/plink/1.9/)
-  4. GRM calculation
+  3. Marker-level QC
+    a. PLINK (https://www.cog-genomics.org/plink/1.9/)
+    b. PLINK2 (https://www.cog-genomics.org/plink/2.0/)
+    c. QCtool (https://www.chg.ox.ac.uk/~gav/qctool_v2/)
+  5. GRM calculation
     a. EUR & EAS: GCTA-GRM (https://yanglab.westlake.edu.cn/software/gcta/#MakingaGRM)
     b. non-EUR: GENESIS (https://www.bioconductor.org/packages/release/bioc/html/GENESIS.html)
 # The genetic architecture of brainstem structures
