@@ -26,11 +26,10 @@ PAINTOR -input ${cross_ancestry_master_file}  -Zhead  Z_eas,Z_eur -LDname ldeas,
 --out {DESIRED_TISSUE_RELEVANCE_FILENAME}
 
 python pops.py \
---gene_annot_path {PATH_TO_DOWNLOADED_FEATURES}\pops_features_full/gene_annot.txt \
---feature_mat_prefix {PATH_TO_DOWNLOADED_FEATURES}\pops_features_full/munged_features/pops_features \
+--gene_annot_path {PATH_TO_DOWNLOADED_FEATURES}\pops_features_pathway_naive/gene_annot.txt \
+--feature_mat_prefix {PATH_TO_DOWNLOADED_FEATURES}\pops_features_pathway_naive/munged_features/pops_features \
 --num_feature_chunks 99 \
 --magma_prefix {PATH_TO_GENERATED_MAGMA_Z_SCORES}\{DESIRED_ZSCORE_FILENAME} \
---control_features {PATH_TO_DOWNLOADED_FEATURES}\pops_features_full/control.features \
 --out_prefix {DESIRED_POPS_OUTPUT_PREFIX)
 
 python FLAMES.py annotate \
